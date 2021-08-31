@@ -51,6 +51,7 @@ h1, h2{
 img{
     display: block;
     margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 iframe[src*="//youtube.com/"], iframe[src*="//www.youtube.com/"] {
@@ -67,6 +68,10 @@ table, th, td {
 table.center {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+table.bidimen{
+    width: 700px;    
 }
 
 .regresarArriba{
