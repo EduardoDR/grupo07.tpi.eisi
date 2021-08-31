@@ -11,27 +11,74 @@
   <meta name="description" content="breve descripcion de contenido">
 
   <link rel="stylesheet" type="text/css" href="../../estilo.css" media="screen" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="fondo">
+  <a id="arriba"></a>
   <!-- CONTENIDO DE LA PÁGINA -->
 
-  <ul class="navul">
-    <li class="navli"><a class="active" href="../../index.html">Home</a></li>
-		<li class="navli"><a href="../suma/suma.html">Suma</a></li>
-		<li class="navli"><a href="#">Resta</a></li>
-		<li class="navli"><a href="../multiplicacion/multiplicacion.html">Multiplicacion</a></li>
-		<li class="navli"><a href="../division/division.html">Division</a></li>
-		<li class="navli"><a href="../../geometria/bidimensional/bidimensional.html">Bidimiensional</a></li>
-		<li class="navli"><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+  <nav class="navbar navbar-inverse">
 
-  </ul>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="../../index.html">Home</a></li>
+      <li><a href="../aritmetica.html">Aritmetica</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+
+          <li><a href="../suma/suma.html">Suma</a></li>
+          <li><a href="../resta/resta.html">Resta</a></li>
+          <li><a href="../multiplicacion/multiplicacion.html">Multiplicación</a></li>
+          <li><a href="../division/division.html">División</a></li>
+        </ul>
+      </li>
+      <li><a href="../../geometria/geometria.html">Geometría </a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../../geometria/bidimensional/bidimensional.html">Bidimensional</a></li>
+          <li><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+  </nav>
 
   <div style="padding:20px;margin-top:30px;height:auto;" class="fondodiv">
-    <h1>Resta</h1>
-    <img src="resta.jpeg">
-    <img src="diferencia.jpeg">
+    <h1> La resta </h1>
+
+    <h2>¿Qué es la resta?</h2>
+    <p>Las restas, conocidas como sustracciones, consisten en quitar una porción de una cantidad que ya tienes y
+      calcular cuánto queda. Al resultado de la resta se le denomina diferencia.</p>
+    <h3><b>Ejemplo:</b></h3>
+    <img src="resta_ejemplo.jpeg">
+
+    <h2>Componentes de la resta</h2>
+    <p>La resta está compuesta por:</p>
+    <p><b>Minuendo:</b>
+      Es el número mayor, el que se coloca arriba y es el número que se va a restar</p>
+    <p><b>Sustraendo:</b>
+      Es el número menor, el que se coloca abajo. El sustraendo es el número que se le resta al minuendo</p>
+    <p><b>Diferencia:</b>
+      Que es el resultado final de la resta.</p>
+    <p><b>Signo:</b>
+      El signo de la resta se representa por una línea (-) y se llama <b>menos</b></p>
+    <img src="elementos.jpeg">
+
+    <p><a href="#arriba" id="regresarArriba">Volver arriba</a></p>
+
   </div>
+
+  <footer id="footer">
+    <p id="footer">Autor: Monica Castillo</p>
+    <p id="footer"><a href="mailto:mg16039@ues.edu.sv">mg16039@ues.edu.sv</a></p>
+    <p id="footer">Publicado: 30 de agosto de 2021</p>
+    <p id="footer">Grupo: 07 de TPI115 - UES</p>
+  </footer>
+
 </body>
 
 </html>

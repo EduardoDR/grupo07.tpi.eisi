@@ -6,26 +6,49 @@
         Multiplicación
     </title>
     <meta charset="utf-8">
-    <meta name="AL13013,AB13027,MG16039,CV15018,DR1503,HL18006" content="nombre del autor de la pagina">
+    <meta name="AL13013,AB13027,MG16039,CV15018,DR1503,HL18006" content="Daniela Andrade">
     <meta name="keywords" content="multiplicacion">
     <meta name="description" content="Pagina donde se aprende a multiplicar">
 
 
     <TITLE>La Multiplicacion</TITLE>
-    
+
     <link rel="stylesheet" type="text/css" href="../../estilo.css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="fondo">
-    <ul class="navul">
-        <li class="navli"><a class="active" href="../../index.html">Home</a></li>
-        <li class="navli"><a href="../suma/suma.html">Suma</a></li>
-        <li class="navli"><a href="../resta/resta.html">Resta</a></li>
-        <li class="navli"><a href="#">Multiplicacion</a></li>
-        <li class="navli"><a href="../division/division.html">Division</a></li>
-        <li class="navli"><a href="../../geometria/bidimensional/bidimensional.html">Bidimiensional</a></li>
-        <li class="navli"><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
-    </ul>
+    <a id="arriba"></a>
+
+    <nav class="navbar navbar-inverse">
+
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="../../index.html">Home</a></li>
+            <li><a href="../aritmetica.html">Aritmetica</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+
+                    <li><a href="../suma/suma.html">Suma</a></li>
+                    <li><a href="../resta/resta.html">Resta</a></li>
+                    <li><a href="../multiplicacion/multiplicacion.html">Multiplicación</a></li>
+                    <li><a href="../division/division.html">División</a></li>
+                </ul>
+            </li>
+            <li><a href="../../geometria/geometria.html">Geometría </a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../../geometria/bidimensional/bidimensional.html">Bidimensional</a></li>
+                    <li><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
     <div style="padding:20px;margin-top:30px;height:auto;" class="fondodiv">
         <h1> La Multiplicacion </h1>
         <p></p>
@@ -49,8 +72,16 @@
 
         <p>Ejemplo del procedimiento a realizar para la multiplicacion </p>
         <img src="procedimiento.png">
+
+        <p><a href="#arriba" id="regresarArriba">Volver arriba</a></p>
     </div>
 
+    <footer id="footer">
+        <p id="footer">Autor: Daniela Andrade</p>
+        <p id="footer"><a href="mailto:ab13027@ues.edu.sv">ab13027@ues.edu.sv</a></p>
+        <p id="footer">Publicado: 30 de agosto de 2021</p>
+        <p id="footer">Grupo: 07 de TPI115 - UES</p>
+    </footer>
 
 </body>
 

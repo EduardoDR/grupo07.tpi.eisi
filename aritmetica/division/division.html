@@ -1,133 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>	
+<head>
 	<title>
 		División Aritmética
-    </title>
-    <meta charset="utf-8">
-    <meta name="author"      content="Eduardo De la Cruz">
-    <meta name="keywords"    content="division, aritmetica, dividendo">
-    <meta name="description" content="Paginaen la que puedes aprender a dividir">
+	</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Eduardo De la Cruz">
+	<meta name="keywords" content="division, aritmetica, dividendo">
+	<meta name="description" content="Paginaen la que puedes aprender a dividir">
 	<link rel="stylesheet" type="text/css" href="../../estilo.css" media="screen" />
-	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="fondo">
 	<a id="arriba"></a>
-	
-	<ul class="navul">
-		<li class="navli"><a class="active" href="../../index.html">Home</a></li>
-		<li class="navli"><a href="../suma/suma.html">Suma</a></li>
-		<li class="navli"><a href="../resta/resta.html">Resta</a></li>
-		<li class="navli"><a href="../multiplicacion/multiplicacion.html">Multiplicacion</a></li>
-		<li class="navli"><a href="#">Division</a></li>
-		<li class="navli"><a href="../../geometria/bidimensional/bidimensional.html">Bidimiensional</a></li>
-		<li class="navli"><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
 
-	</ul>
+	<nav class="navbar navbar-inverse">
+
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="../../index.html">Home</a></li>
+			<li><a href="../aritmetica.html">Aritmetica</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+					<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+
+					<li><a href="../suma/suma.html">Suma</a></li>
+					<li><a href="../resta/resta.html">Resta</a></li>
+					<li><a href="../multiplicacion/multiplicacion.html">Multiplicación</a></li>
+					<li><a href="../division/division.html">División</a></li>
+				</ul>
+			</li>
+			<li><a href="../../geometria/geometria.html">Geometría </a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="../../geometria/bidimensional/bidimensional.html">Bidimensional</a></li>
+					<li><a href="../../geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+	</nav>
+
+
 	<div style="padding:20px;margin-top:30px;height:auto;" class="fondodiv">
-	
-	
-	<ol>
-		<li><a href="../../index.html">INICIO</a></li>
-		<li><a href="">Aritmética</a></li>
-		<ol>
-			<li><a href="">Suma</a></li>
-			<li><a href="">Resta</a></li>
-			<li><a href="../multiplicacion/multiplicacion.html">Multiplicación</a></li>
-			<li><a href="">División</a></li>
-		</ol>
-		<li><a href="">Geometría</a></li>
-		<ol>
-			<li><a href="">Bidimensional</a></li>
-			<li><a href="">Tridimensional</a></li>
-		</ol>
-	</ol>	
-	
-	
-	<h1>División Aritmética</h1>
-	<div>
-		<h2>¿Que es la División</h2>
-		<p>La división es una de las cuatro operaciones básicas de la aritmética que consiste en averiguar cuántas veces un número (divisor) está contenido en otro número (dividendo).
-			División, del latín divisio, es el accionar y el resultado de dividir.
-			La división se puede considerar una operación equivalente a la resta ya que el número dividido se puede poner como equivalente en una resta.
-		</p> 
-		<br><br>Por ejemplo: 6 / 2 = 3 que corresponde a: 
-		<ul>
-			<li>6 – 2 = 4 (1ra resta)</li>
-			<li>4 – 2 = 2 (2da resta)</li>
-			<li>2 – 2 = 0 (3ra resta)</li>
-		</ul>
-		<br>Por lo tanto, se concluye que tenemos 3 restas y es el equivalente a dividir 6 / 2 = 3. 
-	</div>
-	<div>
-		<h2>Simbolos o signos de la división</h2>
-		<p>La representación o signo de la división que se le conoce como <b>“entre”</b>, es mediante una <b>diagonal</b> (/) o un <b>óbelo</b> (÷), en algunos casos se representa con <b>dos puntos</b> (:).</p>
-	</div>
-	<div>
-		<h2>Partes de la división</h2>
-		<p>Al realizar una operación de división se pueden considerar 4 elementos importantes:</p>
-		<ul>
-			<li><b>Dividendo</b>: Es la cantidad que queremos repartir y por la cual vamos a realizar la división.</li>
-			<li><b>Divisor</b>: Es la cifra o cantidad por la cual dividiremos, según la cantidad que nos indica el dividendo.</li>
-			<li><b>Cociente</b>: Es el resultado de la división.</li>
-			<li><b>Residuo</b>: El residuo o también conocido como resto, es el número o cifra sobrante de la división.</li>
-		</ul>
-		<img src="../../imagenes/terminos_division.PNG" alt="Terminos de la división" title="Terminos de la división">
-		<p>Otras formas de representar la división considerando el dividendo (D) y el divisor (d):</p>
-		<ul>
-			<li>D / d</li>
-			<li>D ÷ d</li>
-			<li>D : d</li>
-		</ul>
-	</div>
-	<div>
-		<h2>Propiedades de la división</h2>
-		<ul>
-			<li><b>División entre 1</b>: Cualquier número dividido entre 1 va a resultar el mismo número, ejemplo: 4/1 = 4, 12/1 = 12.</li>
-			<li><b>Dividir el 0</b>: Cualquier número que divida el 0 va a resultar cero, ejemplo: 0/5 = 0, 0/12 = 0.</li>
-			<li><b>División entre 0</b>: Cualquier número dividido entre cero se considera un número infinito (inf).</li>
-		</ul>
-		<div><p><i>Para comprobar que la división entre 0 es infinito podemos utilizar como equivalente la resta, donde 7 / 0 = inf, por lo tanto 7 – 0 = 7 (1ra resta), 7 – 0 = 7 (2ra resta), 7 – 0 = 7 (3ra resta),…, 7 – 0 = 7 (infinita resta), debido que al restar cero nunca se obtiene el valor de cero en el resultado, se considera que cualquier número dividido entre cero da un resultado de valor infinito.</i></p></div>
-	</div>
-	<div>
-		<h2>Comprobar una división</h2>
-		<p>La división se puede comprobar con su operación matemática inversa, ésta es la multiplicación pero considerando el residuo como suma. Para comprobar una división, se utiliza la formula de multiplica el cociente por el divisor y luego se le suma el residuo, obteniendo como resultado el dividendo, indicando que la división fue correcta. Si no nos da el mismo Divisor, significa que la division está incorrecta y deberemos corregir.</p>
-		<ul>
-			<li><h4><b>Formula:</b></h4><br>Dividendo = (Cociente x Divisor) + Residuo</li>
-			<li><h4><b>Ejemplo:</b></h4></li>
-			<li><img src="../../imagenes/comprobacion_division.jpg" alt="Comprobación de la división" title="Comprobación de la división"></li>
-		</ul>
-	</div>
-	
-	<section>
-		<h2>¿Como aplicar la división aritmética</h2>
-		<!--<h3>División directa</h3>
+
+		<h1>División Aritmética</h1>
+		<div>
+			<h2>¿Que es la División</h2>
+			<p>La división es una de las cuatro operaciones básicas de la aritmética que consiste en averiguar cuántas
+				veces un número (divisor) está contenido en otro número (dividendo).
+				División, del latín divisio, es el accionar y el resultado de dividir.
+				La división se puede considerar una operación equivalente a la resta ya que el número dividido se puede
+				poner como equivalente en una resta.
+			</p>
+			<br><br>Por ejemplo: 6 / 2 = 3 que corresponde a:
+			<ul>
+				<li>6 – 2 = 4 (1ra resta)</li>
+				<li>4 – 2 = 2 (2da resta)</li>
+				<li>2 – 2 = 0 (3ra resta)</li>
+			</ul>
+			<br>Por lo tanto, se concluye que tenemos 3 restas y es el equivalente a dividir 6 / 2 = 3.
+		</div>
+		<div>
+			<h2>Simbolos o signos de la división</h2>
+			<p>La representación o signo de la división que se le conoce como <b>“entre”</b>, es mediante una
+				<b>diagonal</b> (/) o un <b>óbelo</b> (÷), en algunos casos se representa con <b>dos puntos</b> (:).</p>
+		</div>
+		<div>
+			<h2>Partes de la división</h2>
+			<p>Al realizar una operación de división se pueden considerar 4 elementos importantes:</p>
+			<ul>
+				<li><b>Dividendo</b>: Es la cantidad que queremos repartir y por la cual vamos a realizar la división.
+				</li>
+				<li><b>Divisor</b>: Es la cifra o cantidad por la cual dividiremos, según la cantidad que nos indica el
+					dividendo.</li>
+				<li><b>Cociente</b>: Es el resultado de la división.</li>
+				<li><b>Residuo</b>: El residuo o también conocido como resto, es el número o cifra sobrante de la
+					división.</li>
+			</ul>
+			<img src="../../imagenes/terminos_division.PNG" alt="Terminos de la división"
+				title="Terminos de la división">
+			<p>Otras formas de representar la división considerando el dividendo (D) y el divisor (d):</p>
+			<ul>
+				<li>D / d</li>
+				<li>D ÷ d</li>
+				<li>D : d</li>
+			</ul>
+		</div>
+		<div>
+			<h2>Propiedades de la división</h2>
+			<ul>
+				<li><b>División entre 1</b>: Cualquier número dividido entre 1 va a resultar el mismo número, ejemplo:
+					4/1 = 4, 12/1 = 12.</li>
+				<li><b>Dividir el 0</b>: Cualquier número que divida el 0 va a resultar cero, ejemplo: 0/5 = 0, 0/12 =
+					0.</li>
+				<li><b>División entre 0</b>: Cualquier número dividido entre cero se considera un número infinito (inf).
+				</li>
+			</ul>
+			<div>
+				<p><i>Para comprobar que la división entre 0 es infinito podemos utilizar como equivalente la resta,
+						donde 7 / 0 = inf, por lo tanto 7 – 0 = 7 (1ra resta), 7 – 0 = 7 (2ra resta), 7 – 0 = 7 (3ra
+						resta),…, 7 – 0 = 7 (infinita resta), debido que al restar cero nunca se obtiene el valor de
+						cero en el resultado, se considera que cualquier número dividido entre cero da un resultado de
+						valor infinito.</i></p>
+			</div>
+		</div>
+		<div>
+			<h2>Comprobar una división</h2>
+			<p>La división se puede comprobar con su operación matemática inversa, ésta es la multiplicación pero
+				considerando el residuo como suma. Para comprobar una división, se utiliza la formula de multiplica el
+				cociente por el divisor y luego se le suma el residuo, obteniendo como resultado el dividendo, indicando
+				que la división fue correcta. Si no nos da el mismo Divisor, significa que la division está incorrecta y
+				deberemos corregir.</p>
+			<ul>
+				<li>
+					<h4><b>Formula:</b></h4><br>Dividendo = (Cociente x Divisor) + Residuo
+				</li>
+				<li>
+					<h4><b>Ejemplo:</b></h4>
+				</li>
+				<li><img src="../../imagenes/comprobacion_division.jpg" alt="Comprobación de la división"
+						title="Comprobación de la división"></li>
+			</ul>
+		</div>
+
+		<section>
+			<h2>¿Como aplicar la división aritmética</h2>
+			<!--<h3>División directa</h3>
 		<h3>División por partes</h3>
 		<h3>División con decimales</h3>
 		<h4>División con decimales en el dividendo</h4>
 		<h4>División con decimales en el divisor</h4>
 		<h4>División con decimales en el dividendo y el divisor</h4>
 		<h3>División de Fracciones</h3>-->
-		
-		<ul>
-			<li><h3>División directa</h3></li>
-			<li><iframe width="560" height="315" src="https://www.youtube.com/embed/BkMdG2dy1-A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></li>
-			<li><h3>División por partes</h3></li>
-			<li>
-				<h3>División con decimales</h3>
-				<ul>
-					<li><h4>División con decimales en el dividendo</h4></li>
-					<li><h4>División con decimales en el divisor</h4></li>
-					<li><h4>División con decimales en el dividendo y el divisor</h4></li>
-				</ul>
-			</li>
-			<li><h3>División de Fracciones</h3></li>
-		</ul>
-		
-	</section>
-	<p><a href="#arriba" id="regresarArriba">Volver arriba</a></p>
+
+			<ul>
+				<li>
+					<h3>División directa</h3>
+				</li>
+				<li><iframe width="560" height="315" src="https://www.youtube.com/embed/BkMdG2dy1-A"
+						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe></li>
+				<li>
+					<h3>División por partes</h3>
+				</li>
+				<li>
+					<h3>División con decimales</h3>
+					<ul>
+						<li>
+							<h4>División con decimales en el dividendo</h4>
+						</li>
+						<li>
+							<h4>División con decimales en el divisor</h4>
+						</li>
+						<li>
+							<h4>División con decimales en el dividendo y el divisor</h4>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h3>División de Fracciones</h3>
+				</li>
+			</ul>
+
+		</section>
+		<p><a href="#arriba" id="regresarArriba">Volver arriba</a></p>
 	</div>
 	<footer id="footer">
 		<p id="footer">Autor: Eduardo De la Cruz</p>

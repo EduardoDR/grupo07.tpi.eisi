@@ -10,20 +10,41 @@
     <meta name="keywords" content="geometria, tridimensional, volumen, area">
     <meta name="description" content="Contenido sobre figuras geometricas tridimensionales">
     <link rel="stylesheet" type="text/css" href="../../estilo.css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="fondo">
+    <a id="arriba"></a>
     <!-- CONTENIDO DE LA PÁGINA -->
-    <ul class="navul">
-        <li class="navli"><a class="active" href="../../index.html">Home</a></li>
-        <li class="navli"><a href="../../aritmetica/suma/suma.html">Suma</a></li>
-        <li class="navli"><a href="../../aritmetica/resta/resta.html">Resta</a></li>
-        <li class="navli"><a href="../../aritmetica/multiplicacion/multiplicacion.html">Multiplicacion</a></li>
-        <li class="navli"><a href="../../aritmetica/division/division.html">Division</a></li>
-        <li class="navli"><a href="../bidimensional/bidimensional.html">Bidimiensional</a></li>
-        <li class="navli"><a href="#">Tridimensional</a></li>
+    <nav class="navbar navbar-inverse">
 
-    </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="../../index.html">Home</a></li>
+            <li><a href="../../aritmetica/aritmetica.html">Aritmetica</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+
+                    <li><a href="../../aritmetica/suma/suma.html">Suma</a></li>
+                    <li><a href="../../aritmetica/resta/resta.html">Resta</a></li>
+                    <li><a href="../../aritmetica/multiplicacion/multiplicacion.html">Multiplicación</a></li>
+                    <li><a href="../../aritmetica/division/division.html">División</a></li>
+                </ul>
+            </li>
+            <li><a href="../geometria.html">Geometría </a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../bidimensional/bidimensional.html">Bidimensional</a></li>
+                    <li><a href="../tridimensional/tridimensional.html">Tridimensional</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
     <div style="padding:20px;margin-top:30px;height:auto;" class="fondodiv">
         <h1>FIGURAS GEOMETRICAS TRIDIMENSIONALES</h1>
         <img src="..\..\imagenes\1200px-Basic_shapes.svg.png" width="300" height="300">
@@ -114,14 +135,14 @@
                     </tr>
                 </tbody>
             </table>
-            <p><a href="#arriba">Volver arriba</a></p>
+            <p><a href="#arriba" id="regresarArriba">Volver arriba</a></p>
            
     </div>
 </body>
-<footer>
-    <p>Autor: Gabriela Hernandez</p>
-    <p><a href="mailto:hl18006@ues.edu.sv">hl18006@ues.edu.sv</a></p>
-    <p>Publicado: 30 de agosto de 2021</p>
-    <p>Grupo: 07 de TPI115 - UES</p>
+<footer id="footer">
+    <p id="footer">Autor: Gabriela Hernandez</p>
+    <p id="footer"><a href="mailto:hl18006@ues.edu.sv">hl18006@ues.edu.sv</a></p>
+    <p id="footer">Publicado: 30 de agosto de 2021</p>
+    <p id="footer">Grupo: 07 de TPI115 - UES</p>
 </footer>
 </html>
