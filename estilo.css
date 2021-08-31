@@ -69,11 +69,11 @@ table.center {
 	margin-right: auto;
 }
 
-#regresarArriba{
+.regresarArriba{
 	text-align:center;
 }
 
-#footer{
+.footer{
 	background-color: white;
 	margin: 0 auto;
 	text-align: center;
