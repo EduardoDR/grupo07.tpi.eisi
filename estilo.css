@@ -69,6 +69,10 @@ table.center {
 	margin-right: auto;
 }
 
+table.bidimen{
+    width: 700px;    
+}
+
 .regresarArriba{
 	text-align:center;
 }
